@@ -1,0 +1,9 @@
+# Ignore log files
+*.log
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore IDE files
+.idea/
+*.swp
