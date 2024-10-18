@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "APP\\": "/app"
+            "APP\\": "app/"
         }
     },
     "authors": [
@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-     "phpmvc/elframwork": "1.0"
+     "phpmvc/elframework": "1.0"
     },
     "repositories":[{
         "type": "path",

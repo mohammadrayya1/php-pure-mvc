@@ -4,20 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6bd44595dd7f6f17ad7cc6d54dfa741",
+    "content-hash": "63768efa4ed793f79ea060b9d37fdfb9",
     "packages": [
         {
-            "name": "phpmvc/elframwork",
+            "name": "phpmvc/elframework",
             "version": "1.0",
             "dist": {
                 "type": "path",
                 "url": "elframework",
-                "reference": "b5216065bdf0c1aa20278fedaec94ddbc3173099"
+                "reference": "7ba252723a51931a4974ddff9dfda77fa1276fcc"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Elframework\\": "framework/"
+                    "Elframework\\": "framework/",
+                    "Illuminates\\": "framework/illuminates/"
                 }
             },
             "license": [

@@ -1,11 +1,12 @@
 {
-    "name": "phpmvc/elframwork",
+    "name": "phpmvc/elframework",
     "description": "framework",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Elframework\\": "framework/"
+            "Elframework\\": "framework/",
+            "Illuminates\\": "framework/illuminates/"
         }
     },
     "authors": [
@@ -15,6 +16,5 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-
     "version": "1.0"
 }

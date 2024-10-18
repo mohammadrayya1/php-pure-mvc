@@ -10,9 +10,9 @@ services:
     volumes:
       - .:/var/www/html
       - ./000-default.conf:/etc/apache2/sites-available/000-default.conf
-    working_dir: /var/www/html/app
+    working_dir: /var/www/html/public
     environment:
-      - APACHE_DOCUMENT_ROOT=/var/www/html/app
+      - APACHE_DOCUMENT_ROOT=/var/www/html/public
     command: /bin/bash -c "apachectl -D FOREGROUND"
   # MySQL servicedocker-compose down
   mysql:
