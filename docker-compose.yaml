@@ -9,8 +9,12 @@ services:
       - "8080:80"
     volumes:
       - .:/var/www/html
-
-  # MySQL service
+      - ./000-default.conf:/etc/apache2/sites-available/000-default.conf
+    working_dir: /var/www/html/app
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html/app
+    command: /bin/bash -c "apachectl -D FOREGROUND"
+  # MySQL servicedocker-compose down
   mysql:
     image: mysql:8.0
     networks:

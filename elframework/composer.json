@@ -1,0 +1,20 @@
+{
+    "name": "phpmvc/elframwork",
+    "description": "framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elframework\\": "framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammad-Rayya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "version": "1.0"
+}

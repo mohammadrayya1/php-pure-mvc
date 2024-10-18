@@ -1,0 +1,26 @@
+{
+    "name": "mvc/elframwork",
+    "description": "This is first mvc app to make a pwoerful apps on instructive web pages",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "APP\\": "/app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad-Rayya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+     "phpmvc/elframwork": "1.0"
+    },
+    "repositories":[{
+        "type": "path",
+        "url": "elframework"
+    }
+    ],
+    "version": "1.0"
+}
